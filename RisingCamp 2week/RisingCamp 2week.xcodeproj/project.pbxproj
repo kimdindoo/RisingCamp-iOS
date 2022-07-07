@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3074432860C91600B1D694 /* OrderDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3074422860C91600B1D694 /* OrderDetailViewController.swift */; };
+		DF3074472860E93200B1D694 /* ShoppingCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3074462860E93200B1D694 /* ShoppingCartViewController.swift */; };
+		DF3244B1285A2AA50028B79E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3244B0285A2AA50028B79E /* AppDelegate.swift */; };
+		DF3244B3285A2AA60028B79E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3244B2285A2AA60028B79E /* SceneDelegate.swift */; };
+		DF3244B5285A2AA60028B79E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3244B4285A2AA60028B79E /* HomeViewController.swift */; };
+		DF3244B8285A2AA60028B79E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3244B6285A2AA60028B79E /* Main.storyboard */; };
+		DF3244BA285A2AA70028B79E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3244B9285A2AA70028B79E /* Assets.xcassets */; };
+		DF3244BD285A2AA70028B79E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3244BB285A2AA70028B79E /* LaunchScreen.storyboard */; };
+		DFB36AE6285F209F00F14AB9 /* starbuckslogo.png in Resources */ = {isa = PBXBuildFile; fileRef = DFB36AE5285F209F00F14AB9 /* starbuckslogo.png */; };
+		DFCA8CE1285B7C2800DCD8CE /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA8CE0285B7C2800DCD8CE /* PayViewController.swift */; };
+		DFCA8CE3285B7EBB00DCD8CE /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA8CE2285B7EBB00DCD8CE /* OrderViewController.swift */; };
+		DFCA8CE5285B7EC300DCD8CE /* GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA8CE4285B7EC300DCD8CE /* GiftViewController.swift */; };
+		DFCA8CE7285B7ECF00DCD8CE /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCA8CE6285B7ECF00DCD8CE /* OtherViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF3074422860C91600B1D694 /* OrderDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewController.swift; sourceTree = "<group>"; };
+		DF3074462860E93200B1D694 /* ShoppingCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartViewController.swift; sourceTree = "<group>"; };
+		DF3244AD285A2AA50028B79E /* RisingCamp 2week.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RisingCamp 2week.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF3244B0285A2AA50028B79E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF3244B2285A2AA60028B79E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF3244B4285A2AA60028B79E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DF3244B7285A2AA60028B79E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF3244B9285A2AA70028B79E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF3244BC285A2AA70028B79E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF3244BE285A2AA70028B79E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB36AE5285F209F00F14AB9 /* starbuckslogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbuckslogo.png; sourceTree = "<group>"; };
+		DFCA8CE0285B7C2800DCD8CE /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		DFCA8CE2285B7EBB00DCD8CE /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		DFCA8CE4285B7EC300DCD8CE /* GiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftViewController.swift; sourceTree = "<group>"; };
+		DFCA8CE6285B7ECF00DCD8CE /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF3244AA285A2AA50028B79E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3244A4285A2AA50028B79E = {
+			isa = PBXGroup;
+			children = (
+				DF3244AF285A2AA50028B79E /* RisingCamp 2week */,
+				DF3244AE285A2AA50028B79E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3244AE285A2AA50028B79E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF3244AD285A2AA50028B79E /* RisingCamp 2week.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF3244AF285A2AA50028B79E /* RisingCamp 2week */ = {
+			isa = PBXGroup;
+			children = (
+				DF3244B0285A2AA50028B79E /* AppDelegate.swift */,
+				DF3244B2285A2AA60028B79E /* SceneDelegate.swift */,
+				DF3244B4285A2AA60028B79E /* HomeViewController.swift */,
+				DF3244B6285A2AA60028B79E /* Main.storyboard */,
+				DFCA8CE0285B7C2800DCD8CE /* PayViewController.swift */,
+				DFCA8CE2285B7EBB00DCD8CE /* OrderViewController.swift */,
+				DFCA8CE4285B7EC300DCD8CE /* GiftViewController.swift */,
+				DFCA8CE6285B7ECF00DCD8CE /* OtherViewController.swift */,
+				DF3244B9285A2AA70028B79E /* Assets.xcassets */,
+				DF3244BB285A2AA70028B79E /* LaunchScreen.storyboard */,
+				DF3244BE285A2AA70028B79E /* Info.plist */,
+				DFB36AE5285F209F00F14AB9 /* starbuckslogo.png */,
+				DF3074422860C91600B1D694 /* OrderDetailViewController.swift */,
+				DF3074462860E93200B1D694 /* ShoppingCartViewController.swift */,
+			);
+			path = "RisingCamp 2week";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF3244AC285A2AA50028B79E /* RisingCamp 2week */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF3244C1285A2AA70028B79E /* Build configuration list for PBXNativeTarget "RisingCamp 2week" */;
+			buildPhases = (
+				DF3244A9285A2AA50028B79E /* Sources */,
+				DF3244AA285A2AA50028B79E /* Frameworks */,
+				DF3244AB285A2AA50028B79E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RisingCamp 2week";
+			productName = "Starbucks Clone";
+			productReference = DF3244AD285A2AA50028B79E /* RisingCamp 2week.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF3244A5285A2AA50028B79E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					DF3244AC285A2AA50028B79E = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DF3244A8285A2AA50028B79E /* Build configuration list for PBXProject "RisingCamp 2week" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF3244A4285A2AA50028B79E;
+			productRefGroup = DF3244AE285A2AA50028B79E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF3244AC285A2AA50028B79E /* RisingCamp 2week */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF3244AB285A2AA50028B79E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB36AE6285F209F00F14AB9 /* starbuckslogo.png in Resources */,
+				DF3244BD285A2AA70028B79E /* LaunchScreen.storyboard in Resources */,
+				DF3244BA285A2AA70028B79E /* Assets.xcassets in Resources */,
+				DF3244B8285A2AA60028B79E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF3244A9285A2AA50028B79E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3074432860C91600B1D694 /* OrderDetailViewController.swift in Sources */,
+				DF3244B5285A2AA60028B79E /* HomeViewController.swift in Sources */,
+				DF3074472860E93200B1D694 /* ShoppingCartViewController.swift in Sources */,
+				DFCA8CE3285B7EBB00DCD8CE /* OrderViewController.swift in Sources */,
+				DFCA8CE7285B7ECF00DCD8CE /* OtherViewController.swift in Sources */,
+				DFCA8CE1285B7C2800DCD8CE /* PayViewController.swift in Sources */,
+				DF3244B1285A2AA50028B79E /* AppDelegate.swift in Sources */,
+				DFCA8CE5285B7EC300DCD8CE /* GiftViewController.swift in Sources */,
+				DF3244B3285A2AA60028B79E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF3244B6285A2AA60028B79E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3244B7285A2AA60028B79E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF3244BB285A2AA70028B79E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF3244BC285A2AA70028B79E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF3244BF285A2AA70028B79E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF3244C0285A2AA70028B79E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF3244C2285A2AA70028B79E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DV9BK678A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RisingCamp 2week/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimdindoo.RisingCamp 2week";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF3244C3285A2AA70028B79E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DV9BK678A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RisingCamp 2week/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimdindoo.RisingCamp 2week";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF3244A8285A2AA50028B79E /* Build configuration list for PBXProject "RisingCamp 2week" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3244BF285A2AA70028B79E /* Debug */,
+				DF3244C0285A2AA70028B79E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF3244C1285A2AA70028B79E /* Build configuration list for PBXNativeTarget "RisingCamp 2week" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF3244C2285A2AA70028B79E /* Debug */,
+				DF3244C3285A2AA70028B79E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF3244A5285A2AA50028B79E /* Project object */;
+}
