@@ -8,7 +8,7 @@
 import Alamofire
 import UIKit
 
-class RestaruantRequest {
+class RestaruangRequest {
     
 //    func getWeatherData(_ viewController: ViewController) {
 //        let url = "https://api.openweathermap.org/data/2.5/weather?q=seoul&appid=52bcfbbef4941fe7beda2978f937e45e"
@@ -50,7 +50,7 @@ class RestaruantRequest {
                 AF.request(url,
                            method: .get,
                            headers: nil)
-                .responseDecodable(of: RestaurantResponse.self) { response in
+                .responseDecodable(of: RestaurangResponse.self) { response in
         
                     switch response.result {
         

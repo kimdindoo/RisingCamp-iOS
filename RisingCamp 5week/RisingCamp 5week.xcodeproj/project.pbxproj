@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		5DABDDEF0DA46E59387D45EE /* Pods_RisingCamp_5week.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664218F666096205310B45D5 /* Pods_RisingCamp_5week.framework */; };
-		DF6FDB5328795C3A00A5AB5D /* RestaruantRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FDB5228795C3A00A5AB5D /* RestaruantRequest.swift */; };
-		DF6FDB5528795C5300A5AB5D /* RestaurantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FDB5428795C5300A5AB5D /* RestaurantResponse.swift */; };
+		DF6FDB5328795C3A00A5AB5D /* RestaruangRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FDB5228795C3A00A5AB5D /* RestaruangRequest.swift */; };
+		DF6FDB5528795C5300A5AB5D /* RestaurangResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FDB5428795C5300A5AB5D /* RestaurangResponse.swift */; };
+		DF7CCA582879D0B300DD0598 /* FindGRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */; };
+		DF7CCA5A2879D8FF00DD0598 /* FindGRCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */; };
+		DF7CCA5C2879DB1A00DD0598 /* RestaurantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA5B2879DB1A00DD0598 /* RestaurantInfo.swift */; };
 		DFBE4A6D2878818C0083470C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE4A6C2878818C0083470C /* AppDelegate.swift */; };
 		DFBE4A6F2878818C0083470C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE4A6E2878818C0083470C /* SceneDelegate.swift */; };
 		DFBE4A712878818C0083470C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE4A702878818C0083470C /* ViewController.swift */; };
@@ -22,8 +25,11 @@
 		18EC2CF3C8435427D58B9B31 /* Pods-RisingCamp 5week.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp 5week.debug.xcconfig"; path = "Target Support Files/Pods-RisingCamp 5week/Pods-RisingCamp 5week.debug.xcconfig"; sourceTree = "<group>"; };
 		664218F666096205310B45D5 /* Pods_RisingCamp_5week.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingCamp_5week.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB38310F59AFF76D9A433BD /* Pods-RisingCamp 5week.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp 5week.release.xcconfig"; path = "Target Support Files/Pods-RisingCamp 5week/Pods-RisingCamp 5week.release.xcconfig"; sourceTree = "<group>"; };
-		DF6FDB5228795C3A00A5AB5D /* RestaruantRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaruantRequest.swift; sourceTree = "<group>"; };
-		DF6FDB5428795C5300A5AB5D /* RestaurantResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantResponse.swift; sourceTree = "<group>"; };
+		DF6FDB5228795C3A00A5AB5D /* RestaruangRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaruangRequest.swift; sourceTree = "<group>"; };
+		DF6FDB5428795C5300A5AB5D /* RestaurangResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurangResponse.swift; sourceTree = "<group>"; };
+		DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGRViewController.swift; sourceTree = "<group>"; };
+		DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGRCell.swift; sourceTree = "<group>"; };
+		DF7CCA5B2879DB1A00DD0598 /* RestaurantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfo.swift; sourceTree = "<group>"; };
 		DFBE4A692878818C0083470C /* RisingCamp 5week.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RisingCamp 5week.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBE4A6C2878818C0083470C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFBE4A6E2878818C0083470C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,7 +72,7 @@
 		DF6FDB5028795B7B00A5AB5D /* Request */ = {
 			isa = PBXGroup;
 			children = (
-				DF6FDB5228795C3A00A5AB5D /* RestaruantRequest.swift */,
+				DF6FDB5228795C3A00A5AB5D /* RestaruangRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -74,7 +80,7 @@
 		DF6FDB5128795B8300A5AB5D /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				DF6FDB5428795C5300A5AB5D /* RestaurantResponse.swift */,
+				DF6FDB5428795C5300A5AB5D /* RestaurangResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -104,7 +110,10 @@
 				DFBE4A6C2878818C0083470C /* AppDelegate.swift */,
 				DFBE4A6E2878818C0083470C /* SceneDelegate.swift */,
 				DFBE4A702878818C0083470C /* ViewController.swift */,
+				DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */,
+				DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */,
 				DFBE4A722878818C0083470C /* Main.storyboard */,
+				DF7CCA5B2879DB1A00DD0598 /* RestaurantInfo.swift */,
 				DFBE4A752878818E0083470C /* Assets.xcassets */,
 				DFBE4A772878818E0083470C /* LaunchScreen.storyboard */,
 				DFBE4A7A2878818E0083470C /* Info.plist */,
@@ -236,11 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF6FDB5328795C3A00A5AB5D /* RestaruantRequest.swift in Sources */,
+				DF6FDB5328795C3A00A5AB5D /* RestaruangRequest.swift in Sources */,
 				DFBE4A712878818C0083470C /* ViewController.swift in Sources */,
 				DFBE4A6D2878818C0083470C /* AppDelegate.swift in Sources */,
-				DF6FDB5528795C5300A5AB5D /* RestaurantResponse.swift in Sources */,
+				DF6FDB5528795C5300A5AB5D /* RestaurangResponse.swift in Sources */,
+				DF7CCA5C2879DB1A00DD0598 /* RestaurantInfo.swift in Sources */,
+				DF7CCA582879D0B300DD0598 /* FindGRViewController.swift in Sources */,
 				DFBE4A6F2878818C0083470C /* SceneDelegate.swift in Sources */,
+				DF7CCA5A2879D8FF00DD0598 /* FindGRCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

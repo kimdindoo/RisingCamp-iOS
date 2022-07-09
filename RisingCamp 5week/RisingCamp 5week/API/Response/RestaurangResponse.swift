@@ -6,7 +6,7 @@
 import Foundation
 
 // MARK: - RestaurantResponse
-struct RestaurantResponse: Decodable {
+struct RestaurangResponse: Decodable {
     var body: [Body]?
     var header: Header?
 }

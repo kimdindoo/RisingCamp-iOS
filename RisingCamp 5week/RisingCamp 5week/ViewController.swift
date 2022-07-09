@@ -16,9 +16,9 @@ class ViewController: UIViewController {
     
     @IBAction func tapPatchRestaurantButton(_ sender: Any) {
         
-        RestaruantRequest().getRestaruantData(self)
+        RestaruangRequest().getRestaruantData(self)
     }
-    func didSuccess(_ response: RestaurantResponse) {
+    func didSuccess(_ response: RestaurangResponse) {
         
         self.restaurantNameLabel.text = response.body?[0].mnmnu ?? ""
     }
