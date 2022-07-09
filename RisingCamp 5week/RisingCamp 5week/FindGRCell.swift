@@ -19,12 +19,12 @@ class FindGRCell: UICollectionViewCell {
     
     @IBOutlet weak var writtenLabel: UILabel!
     
-    func configure(_ restaurantInfo: RestaurangtInfo) {
-        thumbnailImageView.image = UIImage(named: restaurantInfo.imageName)
-        RNameLabel.text = restaurantInfo.Rname
-        distanceLabel.text = restaurantInfo.distance
-        viewerLabel.text = "\(restaurantInfo.viewer)"
-        writtenLabel.text = "\(restaurantInfo.written)"
+    func configure(_ restaurangData: RestaurangData) {
+        thumbnailImageView.image = UIImage(named: restaurangData.imageName)
+        RNameLabel.text = restaurangData.Rname
+        distanceLabel.text = restaurangData.distance
+        viewerLabel.text = "\(restaurangData.viewer)"
+        writtenLabel.text = "\(restaurangData.written)"
     }
     
 }

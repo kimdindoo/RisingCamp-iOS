@@ -53,6 +53,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="qLJ-N0-kgI">
+                                <rect key="frame" x="0.0" y="85" width="414" height="725"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LVj-RO-Q66">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -149,7 +153,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pzT-zK-mXQ">
-                        <barButtonItem key="rightBarButtonItem" image="magnifyingglass" catalog="system" id="VVF-YS-Vg5"/>
+                        <barButtonItem key="rightBarButtonItem" image="magnifyingglass" catalog="system" id="VVF-YS-Vg5">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="MKR-gZ-4VE" kind="push" id="5x0-Qm-zcB"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="LVj-RO-Q66" id="ksf-f9-I1g"/>
@@ -158,6 +167,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDJ-t3-3PC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="868.11594202898561" y="480.80357142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rtq-zr-eVS">
+            <objects>
+                <viewController id="MKR-gZ-4VE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IYW-Ch-gXz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="edk-lg-NxY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="k8y-tO-ywa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Zx-0K-bUV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1691" y="226"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="mNP-E3-TO5">
@@ -183,27 +208,77 @@
         <!--망고픽-->
         <scene sceneID="wXv-5M-Pga">
             <objects>
-                <viewController id="4Fd-bo-K1p" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NewsViewController" id="4Fd-bo-K1p" customClass="NewsViewController" customModule="RisingCamp_5week" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VRO-gl-z5Z">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="망고픽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c7I-DB-0oI">
-                                <rect key="frame" x="186" y="438" width="45" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="IYc-cq-FeT">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsCell" rowHeight="319" id="EWz-px-QIq" customClass="NewsCell" customModule="RisingCamp_5week" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="319"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EWz-px-QIq" id="SD8-pb-BJr">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="319"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gcj-cv-L8e">
+                                                    <rect key="frame" x="0.0" y="11" width="414" height="201"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="201" id="hgR-Og-IEG"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[신사/압구정] 아츠" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65k-vD-C37">
+                                                    <rect key="frame" x="20" y="233" width="155" height="25.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="커피 &amp; 디저트 세트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIe-Rf-B3t">
+                                                    <rect key="frame" x="20" y="261" width="128" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="65k-vD-C37" firstAttribute="leading" secondItem="SD8-pb-BJr" secondAttribute="leading" constant="20" symbolic="YES" id="04H-d8-ITA"/>
+                                                <constraint firstItem="Gcj-cv-L8e" firstAttribute="leading" secondItem="SD8-pb-BJr" secondAttribute="leading" id="46e-bc-y9g"/>
+                                                <constraint firstItem="AIe-Rf-B3t" firstAttribute="leading" secondItem="65k-vD-C37" secondAttribute="leading" id="FDQ-LQ-DaI"/>
+                                                <constraint firstItem="Gcj-cv-L8e" firstAttribute="top" secondItem="SD8-pb-BJr" secondAttribute="top" constant="11" id="SSh-4z-PSH"/>
+                                                <constraint firstAttribute="trailing" secondItem="Gcj-cv-L8e" secondAttribute="trailing" id="WI9-G2-yQa"/>
+                                                <constraint firstItem="65k-vD-C37" firstAttribute="top" secondItem="Gcj-cv-L8e" secondAttribute="bottom" constant="21" id="XwP-Vi-LCd"/>
+                                                <constraint firstItem="AIe-Rf-B3t" firstAttribute="top" secondItem="65k-vD-C37" secondAttribute="bottom" constant="2.5" id="dYk-jZ-wlC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="RnameLabel" destination="65k-vD-C37" id="kC8-qz-Sgx"/>
+                                            <outlet property="menuLabel" destination="AIe-Rf-B3t" id="7bx-Xb-sY2"/>
+                                            <outlet property="thumbnailImageView" destination="Gcj-cv-L8e" id="E24-Wr-67e"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZsL-lO-bmS"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IYc-cq-FeT" firstAttribute="top" secondItem="ZsL-lO-bmS" secondAttribute="top" id="TRa-SJ-JkK"/>
+                            <constraint firstItem="IYc-cq-FeT" firstAttribute="leading" secondItem="ZsL-lO-bmS" secondAttribute="leading" id="baX-tx-Vx2"/>
+                            <constraint firstItem="ZsL-lO-bmS" firstAttribute="trailing" secondItem="IYc-cq-FeT" secondAttribute="trailing" id="ju6-11-jkR"/>
+                            <constraint firstItem="ZsL-lO-bmS" firstAttribute="bottom" secondItem="IYc-cq-FeT" secondAttribute="bottom" id="rzq-WH-Pdm"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="망고픽" id="Fws-xc-DEr"/>
+                    <connections>
+                        <outlet property="tableView" destination="IYc-cq-FeT" id="kHF-G2-EtV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F33-Dw-36I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1644.9275362318842" y="955.58035714285711"/>
+            <point key="canvasLocation" x="1611.5942028985507" y="1139.7321428571429"/>
         </scene>
         <!--소식-->
         <scene sceneID="jdp-0m-EDv">

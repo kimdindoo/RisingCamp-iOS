@@ -12,7 +12,10 @@
 		DF6FDB5528795C5300A5AB5D /* RestaurangResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FDB5428795C5300A5AB5D /* RestaurangResponse.swift */; };
 		DF7CCA582879D0B300DD0598 /* FindGRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */; };
 		DF7CCA5A2879D8FF00DD0598 /* FindGRCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */; };
-		DF7CCA5C2879DB1A00DD0598 /* RestaurantInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA5B2879DB1A00DD0598 /* RestaurantInfo.swift */; };
+		DF7CCA5C2879DB1A00DD0598 /* RestaurangData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA5B2879DB1A00DD0598 /* RestaurangData.swift */; };
+		DFA093182879F58A002A21F3 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA093172879F58A002A21F3 /* NewsViewController.swift */; };
+		DFA0931A2879F5BF002A21F3 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA093192879F5BF002A21F3 /* NewsCell.swift */; };
+		DFA0931E2879F782002A21F3 /* EatDealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA0931D2879F782002A21F3 /* EatDealData.swift */; };
 		DFBE4A6D2878818C0083470C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE4A6C2878818C0083470C /* AppDelegate.swift */; };
 		DFBE4A6F2878818C0083470C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE4A6E2878818C0083470C /* SceneDelegate.swift */; };
 		DFBE4A712878818C0083470C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE4A702878818C0083470C /* ViewController.swift */; };
@@ -29,7 +32,10 @@
 		DF6FDB5428795C5300A5AB5D /* RestaurangResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurangResponse.swift; sourceTree = "<group>"; };
 		DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGRViewController.swift; sourceTree = "<group>"; };
 		DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGRCell.swift; sourceTree = "<group>"; };
-		DF7CCA5B2879DB1A00DD0598 /* RestaurantInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantInfo.swift; sourceTree = "<group>"; };
+		DF7CCA5B2879DB1A00DD0598 /* RestaurangData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurangData.swift; sourceTree = "<group>"; };
+		DFA093172879F58A002A21F3 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		DFA093192879F5BF002A21F3 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		DFA0931D2879F782002A21F3 /* EatDealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatDealData.swift; sourceTree = "<group>"; };
 		DFBE4A692878818C0083470C /* RisingCamp 5week.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RisingCamp 5week.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBE4A6C2878818C0083470C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFBE4A6E2878818C0083470C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,9 +117,12 @@
 				DFBE4A6E2878818C0083470C /* SceneDelegate.swift */,
 				DFBE4A702878818C0083470C /* ViewController.swift */,
 				DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */,
+				DFA093172879F58A002A21F3 /* NewsViewController.swift */,
 				DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */,
+				DFA093192879F5BF002A21F3 /* NewsCell.swift */,
 				DFBE4A722878818C0083470C /* Main.storyboard */,
-				DF7CCA5B2879DB1A00DD0598 /* RestaurantInfo.swift */,
+				DF7CCA5B2879DB1A00DD0598 /* RestaurangData.swift */,
+				DFA0931D2879F782002A21F3 /* EatDealData.swift */,
 				DFBE4A752878818E0083470C /* Assets.xcassets */,
 				DFBE4A772878818E0083470C /* LaunchScreen.storyboard */,
 				DFBE4A7A2878818E0083470C /* Info.plist */,
@@ -249,9 +258,12 @@
 				DFBE4A712878818C0083470C /* ViewController.swift in Sources */,
 				DFBE4A6D2878818C0083470C /* AppDelegate.swift in Sources */,
 				DF6FDB5528795C5300A5AB5D /* RestaurangResponse.swift in Sources */,
-				DF7CCA5C2879DB1A00DD0598 /* RestaurantInfo.swift in Sources */,
+				DFA0931A2879F5BF002A21F3 /* NewsCell.swift in Sources */,
+				DF7CCA5C2879DB1A00DD0598 /* RestaurangData.swift in Sources */,
 				DF7CCA582879D0B300DD0598 /* FindGRViewController.swift in Sources */,
+				DFA093182879F58A002A21F3 /* NewsViewController.swift in Sources */,
 				DFBE4A6F2878818C0083470C /* SceneDelegate.swift in Sources */,
+				DFA0931E2879F782002A21F3 /* EatDealData.swift in Sources */,
 				DF7CCA5A2879D8FF00DD0598 /* FindGRCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

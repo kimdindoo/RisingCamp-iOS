@@ -11,7 +11,7 @@ class FindGRViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let list: [RestaurangtInfo] = RestaurangtInfo.list
+    let list: [RestaurangData] = RestaurangData.list
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,8 +40,8 @@ extension FindGRViewController: UICollectionViewDataSource {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FindGRCell", for: indexPath) as? FindGRCell else {
             return UICollectionViewCell()
         }
-        let restaurangInfo = list[indexPath.item]
-        cell.configure(restaurangInfo)
+        let restaurangData = list[indexPath.item]
+        cell.configure(restaurangData)
         return cell
     }
     
@@ -56,7 +56,7 @@ extension FindGRViewController: UICollectionViewDelegateFlowLayout {
         let padding: CGFloat = 16
 
         let width = (collectionView.bounds.width - padding * 2) / 2
-        let height = width * 1.5
+        let height = width * 1.35
         return CGSize(width: width, height: height)
 
         
