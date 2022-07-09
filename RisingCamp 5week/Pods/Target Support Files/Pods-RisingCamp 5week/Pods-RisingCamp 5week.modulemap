@@ -1,0 +1,6 @@
+framework module Pods_RisingCamp_5week {
+  umbrella header "Pods-RisingCamp 5week-umbrella.h"
+
+  export *
+  module * { export * }
+}
