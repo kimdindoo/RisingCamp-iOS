@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		5DABDDEF0DA46E59387D45EE /* Pods_RisingCamp_5week.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664218F666096205310B45D5 /* Pods_RisingCamp_5week.framework */; };
+		DF1B0ABD287A8DA80077A064 /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B0ABC287A8DA80077A064 /* MyInfoViewController.swift */; };
+		DF1B0ABF287A8F910077A064 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B0ABE287A8F910077A064 /* PlusViewController.swift */; };
+		DF1B0AC1287B191C0077A064 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B0AC0287B191C0077A064 /* NewsViewController.swift */; };
+		DF1B0AC5287C05F90077A064 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B0AC4287C05F90077A064 /* NewsCell.swift */; };
 		DF6FDB5328795C3A00A5AB5D /* RestaruangRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FDB5228795C3A00A5AB5D /* RestaruangRequest.swift */; };
 		DF6FDB5528795C5300A5AB5D /* RestaurangResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FDB5428795C5300A5AB5D /* RestaurangResponse.swift */; };
 		DF7CCA582879D0B300DD0598 /* FindGRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */; };
 		DF7CCA5A2879D8FF00DD0598 /* FindGRCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */; };
 		DF7CCA5C2879DB1A00DD0598 /* RestaurangData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA5B2879DB1A00DD0598 /* RestaurangData.swift */; };
-		DFA093182879F58A002A21F3 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA093172879F58A002A21F3 /* NewsViewController.swift */; };
-		DFA0931A2879F5BF002A21F3 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA093192879F5BF002A21F3 /* NewsCell.swift */; };
+		DFA093182879F58A002A21F3 /* MangoPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA093172879F58A002A21F3 /* MangoPickViewController.swift */; };
+		DFA0931A2879F5BF002A21F3 /* MangoPickCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA093192879F5BF002A21F3 /* MangoPickCell.swift */; };
 		DFA0931E2879F782002A21F3 /* EatDealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA0931D2879F782002A21F3 /* EatDealData.swift */; };
 		DFBE4A6D2878818C0083470C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE4A6C2878818C0083470C /* AppDelegate.swift */; };
 		DFBE4A6F2878818C0083470C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBE4A6E2878818C0083470C /* SceneDelegate.swift */; };
@@ -28,13 +32,17 @@
 		18EC2CF3C8435427D58B9B31 /* Pods-RisingCamp 5week.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp 5week.debug.xcconfig"; path = "Target Support Files/Pods-RisingCamp 5week/Pods-RisingCamp 5week.debug.xcconfig"; sourceTree = "<group>"; };
 		664218F666096205310B45D5 /* Pods_RisingCamp_5week.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RisingCamp_5week.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB38310F59AFF76D9A433BD /* Pods-RisingCamp 5week.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RisingCamp 5week.release.xcconfig"; path = "Target Support Files/Pods-RisingCamp 5week/Pods-RisingCamp 5week.release.xcconfig"; sourceTree = "<group>"; };
+		DF1B0ABC287A8DA80077A064 /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		DF1B0ABE287A8F910077A064 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
+		DF1B0AC0287B191C0077A064 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		DF1B0AC4287C05F90077A064 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 		DF6FDB5228795C3A00A5AB5D /* RestaruangRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaruangRequest.swift; sourceTree = "<group>"; };
 		DF6FDB5428795C5300A5AB5D /* RestaurangResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurangResponse.swift; sourceTree = "<group>"; };
 		DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGRViewController.swift; sourceTree = "<group>"; };
 		DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGRCell.swift; sourceTree = "<group>"; };
 		DF7CCA5B2879DB1A00DD0598 /* RestaurangData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurangData.swift; sourceTree = "<group>"; };
-		DFA093172879F58A002A21F3 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
-		DFA093192879F5BF002A21F3 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		DFA093172879F58A002A21F3 /* MangoPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoPickViewController.swift; sourceTree = "<group>"; };
+		DFA093192879F5BF002A21F3 /* MangoPickCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangoPickCell.swift; sourceTree = "<group>"; };
 		DFA0931D2879F782002A21F3 /* EatDealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatDealData.swift; sourceTree = "<group>"; };
 		DFBE4A692878818C0083470C /* RisingCamp 5week.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RisingCamp 5week.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFBE4A6C2878818C0083470C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,9 +125,13 @@
 				DFBE4A6E2878818C0083470C /* SceneDelegate.swift */,
 				DFBE4A702878818C0083470C /* ViewController.swift */,
 				DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */,
-				DFA093172879F58A002A21F3 /* NewsViewController.swift */,
+				DFA093172879F58A002A21F3 /* MangoPickViewController.swift */,
+				DF1B0AC0287B191C0077A064 /* NewsViewController.swift */,
+				DF1B0ABC287A8DA80077A064 /* MyInfoViewController.swift */,
+				DF1B0ABE287A8F910077A064 /* PlusViewController.swift */,
 				DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */,
-				DFA093192879F5BF002A21F3 /* NewsCell.swift */,
+				DFA093192879F5BF002A21F3 /* MangoPickCell.swift */,
+				DF1B0AC4287C05F90077A064 /* NewsCell.swift */,
 				DFBE4A722878818C0083470C /* Main.storyboard */,
 				DF7CCA5B2879DB1A00DD0598 /* RestaurangData.swift */,
 				DFA0931D2879F782002A21F3 /* EatDealData.swift */,
@@ -256,14 +268,18 @@
 			files = (
 				DF6FDB5328795C3A00A5AB5D /* RestaruangRequest.swift in Sources */,
 				DFBE4A712878818C0083470C /* ViewController.swift in Sources */,
+				DF1B0ABF287A8F910077A064 /* PlusViewController.swift in Sources */,
 				DFBE4A6D2878818C0083470C /* AppDelegate.swift in Sources */,
+				DF1B0AC5287C05F90077A064 /* NewsCell.swift in Sources */,
 				DF6FDB5528795C5300A5AB5D /* RestaurangResponse.swift in Sources */,
-				DFA0931A2879F5BF002A21F3 /* NewsCell.swift in Sources */,
+				DFA0931A2879F5BF002A21F3 /* MangoPickCell.swift in Sources */,
 				DF7CCA5C2879DB1A00DD0598 /* RestaurangData.swift in Sources */,
 				DF7CCA582879D0B300DD0598 /* FindGRViewController.swift in Sources */,
-				DFA093182879F58A002A21F3 /* NewsViewController.swift in Sources */,
+				DFA093182879F58A002A21F3 /* MangoPickViewController.swift in Sources */,
 				DFBE4A6F2878818C0083470C /* SceneDelegate.swift in Sources */,
 				DFA0931E2879F782002A21F3 /* EatDealData.swift in Sources */,
+				DF1B0AC1287B191C0077A064 /* NewsViewController.swift in Sources */,
+				DF1B0ABD287A8DA80077A064 /* MyInfoViewController.swift in Sources */,
 				DF7CCA5A2879D8FF00DD0598 /* FindGRCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
