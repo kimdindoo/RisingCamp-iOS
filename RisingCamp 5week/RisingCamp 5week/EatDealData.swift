@@ -24,7 +24,11 @@ extension EatDealData {
         EatDealData(Rname: "[서귀포] 하버39", imageName: "파스타", menu: "하버치즈버거"),
         EatDealData(Rname: "[서귀포] 하버39", imageName: "파스타", menu: "하버치즈버거"),
         EatDealData(Rname: "[서귀포] 하버39", imageName: "파스타", menu: "하버치즈버거"),
-
-
+        EatDealData(Rname: "[서귀포] 하버39", imageName: "파스타", menu: "하버치즈버거"),
+        EatDealData(Rname: "[서귀포] 하버39", imageName: "파스타", menu: "하버치즈버거"),
+        EatDealData(Rname: "[서귀포] 하버39", imageName: "파스타", menu: "하버치즈버거"),
+        EatDealData(Rname: "[서귀포] 하버39", imageName: "파스타", menu: "하버치즈버거"),
+        EatDealData(Rname: "[서귀포] 하버39", imageName: "파스타", menu: "하버치즈버거"),
+        
     ]
 }

@@ -22,9 +22,15 @@ extension RestaurangData {
         RestaurangData(Rname: "3. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
         RestaurangData(Rname: "4. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
         RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
-
-
-    
-    
+        RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
+        RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
+        RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
+        RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
+        RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
+        RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
+        RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
+        RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
+        RestaurangData(Rname: "5. 써리얼파스타바", imageName: "파스타", distance: "의왕시 2.32km", viewer: 13724, written: 16),
+        
     ]
 }

@@ -19,6 +19,10 @@ class FindGRCell: UICollectionViewCell {
     
     @IBOutlet weak var writtenLabel: UILabel!
     
+ 
+    
+ 
+    
     func configure(_ restaurangData: RestaurangData) {
         thumbnailImageView.image = UIImage(named: restaurangData.imageName)
         RNameLabel.text = restaurangData.Rname

@@ -52,19 +52,18 @@ class NewsViewController: UIViewController {
         tasteButton1.layer.cornerRadius = 13
         tasteButton1.clipsToBounds = true
         tasteButton1.layer.borderWidth = 1.0
-        tasteButton1.layer.borderColor = UIColor.orange.cgColor
+        tasteButton1.layer.borderColor = UIColor(named: "customOrange")?.cgColor
 
 
         tasteButton2.layer.cornerRadius = 13
         tasteButton2.clipsToBounds = true
         tasteButton2.layer.borderWidth = 1.0
-        tasteButton2.layer.borderColor = UIColor.orange.cgColor
+        tasteButton2.layer.borderColor = UIColor(named: "customOrange")?.cgColor
         
         tasteButton3.layer.cornerRadius = 13
         tasteButton3.clipsToBounds = true
         tasteButton3.layer.borderWidth = 1.0
         tasteButton3.layer.borderColor = UIColor.lightGray.cgColor
-        tasteButton3.sizeToFit()
         
     }
     

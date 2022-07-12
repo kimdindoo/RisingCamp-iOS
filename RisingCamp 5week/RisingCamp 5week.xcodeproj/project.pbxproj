@@ -12,6 +12,7 @@
 		DF1B0ABF287A8F910077A064 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B0ABE287A8F910077A064 /* PlusViewController.swift */; };
 		DF1B0AC1287B191C0077A064 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B0AC0287B191C0077A064 /* NewsViewController.swift */; };
 		DF1B0AC5287C05F90077A064 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B0AC4287C05F90077A064 /* NewsCell.swift */; };
+		DF1B0ACB287CA75F0077A064 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B0ACA287CA75F0077A064 /* CollectionReusableView.swift */; };
 		DF6FDB5328795C3A00A5AB5D /* RestaruangRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FDB5228795C3A00A5AB5D /* RestaruangRequest.swift */; };
 		DF6FDB5528795C5300A5AB5D /* RestaurangResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6FDB5428795C5300A5AB5D /* RestaurangResponse.swift */; };
 		DF7CCA582879D0B300DD0598 /* FindGRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */; };
@@ -36,6 +37,7 @@
 		DF1B0ABE287A8F910077A064 /* PlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
 		DF1B0AC0287B191C0077A064 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		DF1B0AC4287C05F90077A064 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		DF1B0ACA287CA75F0077A064 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 		DF6FDB5228795C3A00A5AB5D /* RestaruangRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaruangRequest.swift; sourceTree = "<group>"; };
 		DF6FDB5428795C5300A5AB5D /* RestaurangResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurangResponse.swift; sourceTree = "<group>"; };
 		DF7CCA572879D0B300DD0598 /* FindGRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGRViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				DF7CCA592879D8FF00DD0598 /* FindGRCell.swift */,
 				DFA093192879F5BF002A21F3 /* MangoPickCell.swift */,
 				DF1B0AC4287C05F90077A064 /* NewsCell.swift */,
+				DF1B0ACA287CA75F0077A064 /* CollectionReusableView.swift */,
 				DFBE4A722878818C0083470C /* Main.storyboard */,
 				DF7CCA5B2879DB1A00DD0598 /* RestaurangData.swift */,
 				DFA0931D2879F782002A21F3 /* EatDealData.swift */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF6FDB5328795C3A00A5AB5D /* RestaruangRequest.swift in Sources */,
+				DF1B0ACB287CA75F0077A064 /* CollectionReusableView.swift in Sources */,
 				DFBE4A712878818C0083470C /* ViewController.swift in Sources */,
 				DF1B0ABF287A8F910077A064 /* PlusViewController.swift in Sources */,
 				DFBE4A6D2878818C0083470C /* AppDelegate.swift in Sources */,

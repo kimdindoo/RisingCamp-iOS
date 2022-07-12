@@ -10,6 +10,9 @@ import UIKit
 class MangoPickViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var blurView: UIView!
+    @IBOutlet weak var chooseLocationButton: UIButton!
+    @IBOutlet weak var myLocationButton: UIButton!
     
     let list: [EatDealData] = EatDealData.list
     
@@ -22,7 +25,19 @@ class MangoPickViewController: UIViewController {
         self.tableView?.rowHeight = UITableView.automaticDimension
         self.tableView?.estimatedRowHeight = UITableView.automaticDimension
         
+        let blurEffect = UIBlurEffect(style: .regular)
+        let visualEffectView = UIVisualEffectView(effect: blurEffect)
+//        visualEffectView.frame = self.blurView.frame
+        self.blurView.addSubview(visualEffectView)
         
+        chooseLocationButton.layer.cornerRadius = 15
+        chooseLocationButton.clipsToBounds = true
+        chooseLocationButton.layer.borderWidth = 1.0
+        chooseLocationButton.layer.borderColor = UIColor(named: "customOrange")?.cgColor
+        
+        myLocationButton.layer.cornerRadius = 15
+        myLocationButton.clipsToBounds = true
+                  
     }
     
 

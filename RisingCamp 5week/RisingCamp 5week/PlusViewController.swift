@@ -15,6 +15,10 @@ class PlusViewController: UIViewController {
     }
     
     @IBAction func closeButtonTap(_ sender: Any) {
-    }
+        let storyboard = UIStoryboard(name: "FindGRViewController", bundle: nil)
+        let myModalViewController = storyboard.instantiateViewController(withIdentifier: "FindGRViewController")
+        myModalViewController.modalPresentationStyle = UIModalPresentationStyle.fullScreen
+        myModalViewController.modalTransitionStyle = UIModalTransitionStyle.coverVertical
+        self.present(myModalViewController, animated: true, completion: nil)    }
     
 }
