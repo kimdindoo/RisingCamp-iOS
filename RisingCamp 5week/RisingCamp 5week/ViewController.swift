@@ -9,6 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var rNameLabel: UILabel!
     @IBOutlet weak var restaurantNameLabel: UILabel!
     @IBOutlet weak var mainMenuLabel: UILabel!
     

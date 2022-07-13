@@ -6,12 +6,13 @@
 //
 
 import UIKit
+import Alamofire
 
 class FindGRViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-   
+   private let url = "https://busan-7beach.openapi.redtable.global/api/menu-dscrn/korean?serviceKey=xzqcWBUrj1hkj2qcRhf1KMbb3zEFip86I0yJ8O1b9je5i9W8p9rlNoNr5ACt7l5M"
     
 
     
@@ -21,7 +22,10 @@ class FindGRViewController: UIViewController {
     // 데이터 배열
 //    let dataArray: Array<UIImage> = [UIImage(named: "배너1.png")!, UIImage(named: "배너22.png")!, UIImage(named: "배너3.png")!, UIImage(named: "배너4.png")!, UIImage(named: "배너5.png")!]
     
-    let list: [RestaurangData] = RestaurangData.list
+//    let list: [RestaurangData] = RestaurangData.list
+    
+    var data: [Restaurang] = []
+    var imageData: [Image] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,10 +38,41 @@ class FindGRViewController: UIViewController {
         }
 //        collectionView.contentInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
         
+//        self.fetchData()
+        BusanFoodRequest().getBusanFoodData(self)
+        BusanFoodImageRequest().getBusanFoodImageData(self)
         
         
         
     }
+    
+//    private func fetchData() {
+//
+//        AF.request(self.url, method: .get, headers: nil).responseDecodable(of: [BusanFood].self) { response in
+//            self.busanFoods = response.value ?? []
+//
+//            
+//            DispatchQueue.main.async {
+//                self.collectionView.reloadData()
+//            }
+//
+//
+//
+//        }
+//    }
+  
+    func didSuccess(_ response: BusanFood) {
+        self.data = response.restaurang
+        self.collectionView.reloadData()
+        
+    }
+
+    func didSuccessImage(_ response: BusanFoodImage) {
+        self.imageData = response.bfImage
+        self.collectionView.reloadData()
+    }
+    
+
     
     
     
@@ -46,15 +81,30 @@ class FindGRViewController: UIViewController {
 extension FindGRViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return list.count
+//        return data.count
+        return imageData.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FindGRCell", for: indexPath) as? FindGRCell else {
             return UICollectionViewCell()
         }
-        let restaurangData = list[indexPath.item]
-        cell.configure(restaurangData)
+        // 기존 데이터
+//        let restaurangData = list[indexPath.item]
+//        cell.configure(restaurangData)
+        
+        // API 데이터 넣기
+//        cell.RNameLabel.text = data[indexPath.row].Rname
+//        cell.distanceLabel.text = data[indexPath.row].adress
+        
+        let row = self.imageData[indexPath.row]
+
+        let url:URL! = URL(string: row.image)
+        
+        let imageData = try! Data(contentsOf: url)
+        
+        cell.thumbnailImageView.image = UIImage(data: imageData)
+        
         return cell
         
 
@@ -108,4 +158,18 @@ extension FindGRViewController: UICollectionViewDelegateFlowLayout {
 //        
 //    }
     
+}
+
+extension UIImageView {
+    func load(url: URL) {
+        DispatchQueue.global().async { [weak self] in
+            if let data = try? Data(contentsOf: url) {
+                if let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self?.image = image
+                    }
+                }
+            }
+        }
+    }
 }

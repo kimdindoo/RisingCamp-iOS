@@ -1,4 +1,4 @@
-import Foundation
+import Alamofire
 
 // MARK: - RestaurantResponse
 struct RestaurangResponse: Decodable {
@@ -12,7 +12,9 @@ struct Body: Decodable {
     var lo: Double?
     var mnmnu: String?
     var se: SE?
-    var cmpnm, menu, telno: String?
+    var cmpnm: String?
+    var menu: String?
+    var telno: String?
     var url: String?
     var adres: String?
     var la: Double?

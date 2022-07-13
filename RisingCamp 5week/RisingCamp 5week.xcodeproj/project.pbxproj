@@ -35,8 +35,11 @@
 		DFBFF7D9287D57D90031AF9E /* MovieAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFF7D8287D57D90031AF9E /* MovieAPIViewController.swift */; };
 		DFBFF7DB287D58070031AF9E /* MovieRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFF7DA287D58070031AF9E /* MovieRequest.swift */; };
 		DFBFF7DD287D58140031AF9E /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFF7DC287D58140031AF9E /* MovieResponse.swift */; };
-		DFBFF7E3287D6AD80031AF9E /* BusanFoodAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFF7E2287D6AD80031AF9E /* BusanFoodAPIViewController.swift */; };
 		DFBFF7E7287D6D000031AF9E /* RestaurangResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFBFF7E6287D6D000031AF9E /* RestaurangResponse.swift */; };
+		DFC3FA4B287F0A5900BAF260 /* BusanFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3FA4A287F0A5900BAF260 /* BusanFood.swift */; };
+		DFC3FA55287F2D3C00BAF260 /* BusanFoodRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3FA54287F2D3C00BAF260 /* BusanFoodRequest.swift */; };
+		DFC3FA57287F3E9200BAF260 /* BusanFoodImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3FA56287F3E9200BAF260 /* BusanFoodImageRequest.swift */; };
+		DFC3FA59287F3EF700BAF260 /* BusanFoodImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC3FA58287F3EF700BAF260 /* BusanFoodImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,8 +75,11 @@
 		DFBFF7D8287D57D90031AF9E /* MovieAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAPIViewController.swift; sourceTree = "<group>"; };
 		DFBFF7DA287D58070031AF9E /* MovieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequest.swift; sourceTree = "<group>"; };
 		DFBFF7DC287D58140031AF9E /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
-		DFBFF7E2287D6AD80031AF9E /* BusanFoodAPIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanFoodAPIViewController.swift; sourceTree = "<group>"; };
 		DFBFF7E6287D6D000031AF9E /* RestaurangResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurangResponse.swift; sourceTree = "<group>"; };
+		DFC3FA4A287F0A5900BAF260 /* BusanFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanFood.swift; sourceTree = "<group>"; };
+		DFC3FA54287F2D3C00BAF260 /* BusanFoodRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanFoodRequest.swift; sourceTree = "<group>"; };
+		DFC3FA56287F3E9200BAF260 /* BusanFoodImageRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanFoodImageRequest.swift; sourceTree = "<group>"; };
+		DFC3FA58287F3EF700BAF260 /* BusanFoodImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanFoodImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,8 @@
 			children = (
 				DF6FDB5228795C3A00A5AB5D /* RestaruangRequest.swift */,
 				DFBFF7DA287D58070031AF9E /* MovieRequest.swift */,
+				DFC3FA54287F2D3C00BAF260 /* BusanFoodRequest.swift */,
+				DFC3FA56287F3E9200BAF260 /* BusanFoodImageRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -119,6 +127,8 @@
 			children = (
 				DFBFF7DC287D58140031AF9E /* MovieResponse.swift */,
 				DFBFF7E6287D6D000031AF9E /* RestaurangResponse.swift */,
+				DFC3FA4A287F0A5900BAF260 /* BusanFood.swift */,
+				DFC3FA58287F3EF700BAF260 /* BusanFoodImage.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -166,7 +176,6 @@
 				DFBFF7CD287D239F0031AF9E /* bannerimg */,
 				DFBFF7D8287D57D90031AF9E /* MovieAPIViewController.swift */,
 				DFBE4A702878818C0083470C /* ViewController.swift */,
-				DFBFF7E2287D6AD80031AF9E /* BusanFoodAPIViewController.swift */,
 			);
 			path = "RisingCamp 5week";
 			sourceTree = "<group>";
@@ -314,8 +323,10 @@
 			files = (
 				DF6FDB5328795C3A00A5AB5D /* RestaruangRequest.swift in Sources */,
 				DFBFF7DD287D58140031AF9E /* MovieResponse.swift in Sources */,
+				DFC3FA57287F3E9200BAF260 /* BusanFoodImageRequest.swift in Sources */,
 				DF1B0ACB287CA75F0077A064 /* CollectionReusableView.swift in Sources */,
 				DFBE4A712878818C0083470C /* ViewController.swift in Sources */,
+				DFC3FA4B287F0A5900BAF260 /* BusanFood.swift in Sources */,
 				DF1B0ABF287A8F910077A064 /* PlusViewController.swift in Sources */,
 				DFBE4A6D2878818C0083470C /* AppDelegate.swift in Sources */,
 				DF1B0AC5287C05F90077A064 /* NewsCell.swift in Sources */,
@@ -326,9 +337,10 @@
 				DFA093182879F58A002A21F3 /* MangoPickViewController.swift in Sources */,
 				DFBFF7DB287D58070031AF9E /* MovieRequest.swift in Sources */,
 				DFBFF7D9287D57D90031AF9E /* MovieAPIViewController.swift in Sources */,
-				DFBFF7E3287D6AD80031AF9E /* BusanFoodAPIViewController.swift in Sources */,
 				DFBE4A6F2878818C0083470C /* SceneDelegate.swift in Sources */,
 				DFA0931E2879F782002A21F3 /* EatDealData.swift in Sources */,
+				DFC3FA55287F2D3C00BAF260 /* BusanFoodRequest.swift in Sources */,
+				DFC3FA59287F3EF700BAF260 /* BusanFoodImage.swift in Sources */,
 				DFBFF7E7287D6D000031AF9E /* RestaurangResponse.swift in Sources */,
 				DF1B0AC1287B191C0077A064 /* NewsViewController.swift in Sources */,
 				DF1B0ABD287A8DA80077A064 /* MyInfoViewController.swift in Sources */,

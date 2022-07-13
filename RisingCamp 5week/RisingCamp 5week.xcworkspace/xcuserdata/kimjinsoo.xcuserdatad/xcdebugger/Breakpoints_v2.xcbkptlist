@@ -3,4 +3,114 @@
    uuid = "A3250146-8F13-401E-B493-57E305F6E328"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "971C633A-6A9E-49E4-B746-76C207E3ADFD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RisingCamp 5week/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "971C633A-6A9E-49E4-B746-76C207E3ADFD - aed93568158847d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RisingCamp_5week.ViewController.rNameLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "RisingCamp 5week"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimjinsoo/RisingCamp-iOS/RisingCamp%205week/RisingCamp%205week/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "971C633A-6A9E-49E4-B746-76C207E3ADFD - 9b2604784b74e069"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RisingCamp_5week.ViewController.rNameLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "RisingCamp 5week"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimjinsoo/RisingCamp-iOS/RisingCamp%205week/RisingCamp%205week/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "971C633A-6A9E-49E4-B746-76C207E3ADFD - b2d381a31898637a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RisingCamp_5week.ViewController.rNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "RisingCamp 5week"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimjinsoo/RisingCamp-iOS/RisingCamp%205week/RisingCamp%205week/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "971C633A-6A9E-49E4-B746-76C207E3ADFD - b891aa11c1b4d369"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RisingCamp_5week.ViewController.rNameLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "RisingCamp 5week"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimjinsoo/RisingCamp-iOS/RisingCamp%205week/RisingCamp%205week/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "971C633A-6A9E-49E4-B746-76C207E3ADFD - 710306f6f8d57c52"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RisingCamp_5week.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; RisingCamp_5week.ViewController"
+                  moduleName = "RisingCamp 5week"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimjinsoo/RisingCamp-iOS/RisingCamp%205week/RisingCamp%205week/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "971C633A-6A9E-49E4-B746-76C207E3ADFD - fdd4bd3c4a6bcb49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RisingCamp_5week.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RisingCamp_5week.ViewController&gt;"
+                  moduleName = "RisingCamp 5week"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimjinsoo/RisingCamp-iOS/RisingCamp%205week/RisingCamp%205week/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
