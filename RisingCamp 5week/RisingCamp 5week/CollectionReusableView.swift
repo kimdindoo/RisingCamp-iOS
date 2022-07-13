@@ -19,7 +19,7 @@ class CollectionReusableView: UICollectionReusableView {
         
         filterButton.layer.cornerRadius = 13
         filterButton.clipsToBounds = true
-        filterButton.layer.borderWidth = 1.0
+        filterButton.layer.borderWidth = 0.5
         filterButton.layer.borderColor = UIColor.darkGray.cgColor
     }
 }

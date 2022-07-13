@@ -11,7 +11,15 @@ class FindGRViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
+   
     
+
+    
+    // 현재페이지 체크 변수 (자동 스크롤할 때 필요)
+    var nowPage: Int = 0
+
+    // 데이터 배열
+//    let dataArray: Array<UIImage> = [UIImage(named: "배너1.png")!, UIImage(named: "배너22.png")!, UIImage(named: "배너3.png")!, UIImage(named: "배너4.png")!, UIImage(named: "배너5.png")!]
     
     let list: [RestaurangData] = RestaurangData.list
     
@@ -25,6 +33,8 @@ class FindGRViewController: UIViewController {
             flowlayout.estimatedItemSize = .zero
         }
 //        collectionView.contentInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+        
+        
         
         
     }
@@ -46,6 +56,12 @@ extension FindGRViewController: UICollectionViewDataSource {
         let restaurangData = list[indexPath.item]
         cell.configure(restaurangData)
         return cell
+        
+
+  
+
+    
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {

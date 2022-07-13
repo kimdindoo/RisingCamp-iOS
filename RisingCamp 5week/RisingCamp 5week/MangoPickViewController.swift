@@ -25,10 +25,12 @@ class MangoPickViewController: UIViewController {
         self.tableView?.rowHeight = UITableView.automaticDimension
         self.tableView?.estimatedRowHeight = UITableView.automaticDimension
         
-        let blurEffect = UIBlurEffect(style: .regular)
-        let visualEffectView = UIVisualEffectView(effect: blurEffect)
+        //blur
+//        let blurEffect = UIBlurEffect(style: .regular)
+//        let visualEffectView = UIVisualEffectView(effect: blurEffect)
 //        visualEffectView.frame = self.blurView.frame
-        self.blurView.addSubview(visualEffectView)
+//        self.blurView.addSubview(visualEffectView)
+
         
         chooseLocationButton.layer.cornerRadius = 15
         chooseLocationButton.clipsToBounds = true
