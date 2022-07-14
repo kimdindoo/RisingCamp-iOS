@@ -24,14 +24,14 @@ class MovieAPIViewController: UIViewController {
     
 
     @IBAction func tapPatchMovieButton(_ sender: Any) {
-        MovieRequest().getMovieData(self)
+//        MovieRequest().getMovieData(self)
     }
     
-    func didSuccess(_ response: MovieResponse) {
-        rankLabel.text = response.boxOfficeResult?.dailyBoxOfficeList?[1].rank ?? ""
-        movieName.text = response.boxOfficeResult?.dailyBoxOfficeList?[1].movieNm ?? ""
-        openDate.text = response.boxOfficeResult?.dailyBoxOfficeList?[1].openDt ?? ""
-        audiAcc.text = response.boxOfficeResult?.dailyBoxOfficeList?[1].audiAcc ?? ""
-
-    }
+//    func didSuccess(_ response: MovieResponse) {
+//        rankLabel.text = response.boxOfficeResult?.dailyBoxOfficeList?[1].rank ?? ""
+//        movieName.text = response.boxOfficeResult?.dailyBoxOfficeList?[1].movieNm ?? ""
+//        openDate.text = response.boxOfficeResult?.dailyBoxOfficeList?[1].openDt ?? ""
+//        audiAcc.text = response.boxOfficeResult?.dailyBoxOfficeList?[1].audiAcc ?? ""
+//
+//    }
 }

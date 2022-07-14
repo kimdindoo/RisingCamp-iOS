@@ -12,6 +12,10 @@ class NewsCell: UITableViewCell {
     @IBOutlet weak var RnameLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     
+    @IBOutlet weak var contentsLabel: UILabel!
+    
+    @IBOutlet weak var thumbNailImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         
@@ -46,4 +50,12 @@ class NewsCell: UITableViewCell {
 //
 //        contentView.frame = contentView.frame.inset(by: UIEdgeInsets(top: 0, left: 100, bottom: 100, right: 100))
 //    }
+    
+    func configure(_ movieImageData: MovieImageData) {
+        thumbNailImageView.image = UIImage(named: movieImageData.imageName)
+        
+//        RnameLabel.text = eatDealData.Rname
+//        menuLabel.text = eatDealData.menu
+    }
+    
 }

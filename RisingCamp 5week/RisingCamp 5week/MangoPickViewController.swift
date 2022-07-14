@@ -15,6 +15,7 @@ class MangoPickViewController: UIViewController {
     @IBOutlet weak var myLocationButton: UIButton!
     
     let list: [EatDealData] = EatDealData.list
+    var data: [Body] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +40,14 @@ class MangoPickViewController: UIViewController {
         
         myLocationButton.layer.cornerRadius = 15
         myLocationButton.clipsToBounds = true
-                  
+        
+        RestaruangRequest().getRestaruantData(self)
+    }
+    
+    func didSuccess(_ response: RestaurangResponse) {
+        self.data = response.body
+        tableView.reloadData()
+        
     }
     
 
@@ -51,7 +59,7 @@ class MangoPickViewController: UIViewController {
 extension MangoPickViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return list.count
+        return data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -61,6 +69,12 @@ extension MangoPickViewController: UITableViewDataSource {
         
         let eatDealData = list[indexPath.item]
         cell.configure(eatDealData)
+        
+   
+        
+        
+        cell.RnameLabel.text = data[indexPath.row].cmpnm
+        cell.menuLabel.text = data[indexPath.row].mnmnu
         return cell
     }
     

@@ -21,6 +21,8 @@ class NewsViewController: UIViewController {
     
     let cellSpacingHeight: CGFloat = 5
 
+    var data: [DailyBoxOfficeList] = []
+    let list: [MovieImageData] = MovieImageData.list
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,9 +31,10 @@ class NewsViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         
-        self.tableView?.rowHeight = UITableView.automaticDimension
+//        self.tableView?.rowHeight = UITableView.automaticDimensMovieImageDataion
         self.tableView?.estimatedRowHeight = UITableView.automaticDimension
         
+        MovieRequest().getMovieData(self)
 
 //        let text:String = RnameLabel.text ?? ""
 //        let attributedString = NSMutableAttributedString.init(string: "\(text)네맞아요")
@@ -41,6 +44,10 @@ class NewsViewController: UIViewController {
 //
     }
     
+    func didSuccess(_ response: MovieResponse) {
+        self.data = response.boxOfficeResult!.dailyBoxOfficeList!
+        tableView.reloadData()
+    }
 
     
     func buttonCustom() {
@@ -72,7 +79,7 @@ class NewsViewController: UIViewController {
 extension NewsViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return data.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -81,6 +88,19 @@ extension NewsViewController: UITableViewDataSource {
             return UITableViewCell()
         }
         cell.selectionStyle = .none
+        
+//        cell.RnameLabel.text = data[indexPath.row].cmpnm
+//        cell.menuLabel.text = data[indexPath.row].mnmnu
+        
+
+
+        cell.RnameLabel.text = data[indexPath.row].movieNm
+        cell.locationLabel.text = data[indexPath.row].rank
+        cell.contentsLabel.text = data[indexPath.row].openDt
+        
+        let movieImages = list[indexPath.item]
+        cell.configure(movieImages)
+                                                
         return cell
     }
     

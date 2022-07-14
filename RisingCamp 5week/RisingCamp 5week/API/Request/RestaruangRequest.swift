@@ -10,7 +10,7 @@ import UIKit
 
 class RestaruangRequest {
     
-    func getRestaruantData(_ viewController: ViewController) {
+    func getRestaruantData(_ mangoPickViewController: MangoPickViewController) {
         let url = "https://apis.data.go.kr/6430000/cbRecreationalFoodInfoService/getRecreationalFoodInfo?serviceKey=H5H%2FpJwi0HPyW4jWHQ29PUm8GLiNnZGan5B9zHUSKE11nKzUyfU92jcwBHnqUqRZYWRmyYdvbxiASotfsdwKhw%3D%3D"
         
         // HTTP Method: Get
@@ -23,7 +23,7 @@ class RestaruangRequest {
                 
             case .success(let response):
                 print("\(response)")
-                viewController.didSuccess(response)
+                mangoPickViewController.didSuccess(response)
                 
             case .failure(let error):
                 print("\(error.localizedDescription)")

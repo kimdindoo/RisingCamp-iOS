@@ -33,18 +33,18 @@ class ViewController: UIViewController {
     
     @IBAction func tapPatchRestaurantButton(_ sender: Any) {
     
-        RestaruangRequest().getRestaruantData(self)
+//        RestaruangRequest().getRestaruantData(self)
     }
-    func didSuccess(_ response: RestaurangResponse) {
-        
-        self.restaurantNameLabel.text = response.body?[0].cmpnm ?? ""
-        self.mainMenuLabel.text = response.body?[0].mnmnu ?? ""
-        self.menuLabel.text = response.body?[0].menu ?? ""
-        self.urlLabel.text = response.body?[0].url ?? ""
-        self.telLabel.text = response.body?[0].telno ?? ""
-        self.locationLabel.text = response.body?[0].adres ?? ""
-        self.timeLabel.text = response.body?[0].time ?? ""
-        self.introduceLabel.text = response.body?[0].dc ?? ""
-    }
+//    func didSuccess(_ response: RestaurangResponse) {
+//
+//        self.restaurantNameLabel.text = response.body?[0].cmpnm ?? ""
+//        self.mainMenuLabel.text = response.body?[0].mnmnu ?? ""
+//        self.menuLabel.text = response.body?[0].menu ?? ""
+//        self.urlLabel.text = response.body?[0].url ?? ""
+//        self.telLabel.text = response.body?[0].telno ?? ""
+//        self.locationLabel.text = response.body?[0].adres ?? ""
+//        self.timeLabel.text = response.body?[0].time ?? ""
+//        self.introduceLabel.text = response.body?[0].dc ?? ""
+//    }
 
 }

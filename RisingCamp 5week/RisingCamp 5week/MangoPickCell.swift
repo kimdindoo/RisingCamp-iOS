@@ -26,8 +26,8 @@ class MangoPickCell: UITableViewCell {
     
     func configure(_ eatDealData: EatDealData) {
         thumbnailImageView.image = UIImage(named: eatDealData.imageName)
-        RnameLabel.text = eatDealData.Rname
-        menuLabel.text = eatDealData.menu
+//        RnameLabel.text = eatDealData.Rname
+//        menuLabel.text = eatDealData.menu
     }
 
 }

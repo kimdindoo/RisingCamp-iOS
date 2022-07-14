@@ -2,23 +2,23 @@ import Alamofire
 
 // MARK: - RestaurantResponse
 struct RestaurangResponse: Decodable {
-    var body: [Body]?
-    var header: Header?
+    var body: [Body]
+    var header: Header
 }
 
 // MARK: - Body
 struct Body: Decodable {
-    var sigun: Sigun?
-    var lo: Double?
-    var mnmnu: String?
-    var se: SE?
-    var cmpnm: String?
-    var menu: String?
-    var telno: String?
-    var url: String?
-    var adres: String?
-    var la: Double?
-    var time, dc: String?
+    var sigun: Sigun
+    var lo: Double
+    var mnmnu: String
+    var se: SE
+    var cmpnm: String
+    var menu: String
+    var telno: String
+    var url: String
+    var adres: String
+    var la: Double
+    var time, dc: String
 
     enum CodingKeys: String, CodingKey {
         case sigun = "SIGUN"
@@ -48,7 +48,7 @@ enum Sigun: String, Decodable {
 // MARK: - Header
 struct Header: Decodable {
     var perPage: Int?
-    var resultCode: String?
-    var totalRows, currentPage: Int?
+    var resultCode: String
+    var totalRows, currentPage: Int
     var resultMsg: String?
 }

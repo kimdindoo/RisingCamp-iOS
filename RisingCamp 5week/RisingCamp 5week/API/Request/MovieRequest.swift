@@ -9,7 +9,7 @@ import Foundation
 import Alamofire
 
 class MovieRequest {
-    func getMovieData(_ movieAPIViewController: MovieAPIViewController) {
+    func getMovieData(_ newsViewController: NewsViewController) {
         let url = "http://kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=f5eef3421c602c6cb7ea224104795888&targetDt=20220701"
         
         AF.request(url, method: .get, headers: nil).responseDecodable(of: MovieResponse.self) { response in
@@ -18,7 +18,7 @@ class MovieRequest {
                 
             case .success(let response):
                 print("\(response)")
-                movieAPIViewController.didSuccess(response)
+                newsViewController.didSuccess(response)
                 
                 
             case .failure(let error):
