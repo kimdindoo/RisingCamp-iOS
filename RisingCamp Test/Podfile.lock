@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.6.1)
+  - BottomHalfModal (1.1.1)
+  - ImageSlideshow (1.9.2):
+    - ImageSlideshow/Core (= 1.9.2)
+  - ImageSlideshow/Core (1.9.2)
+  - Pageboy (3.6.2)
+  - Tabman (2.12.0):
+    - Pageboy (~> 3.6.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.6.1)
+  - BottomHalfModal
+  - ImageSlideshow (~> 1.9.0)
+  - Tabman (~> 2.12)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BottomHalfModal
+    - ImageSlideshow
+    - Pageboy
+    - Tabman
+
+SPEC CHECKSUMS:
+  Alamofire: 87bd8c952f9a4454320fce00d9cc3de57bcadaf5
+  BottomHalfModal: eb45e44ee80345e50da8c51667ff9170545a560b
+  ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
+  Tabman: 447a50447ed2869c39ab3b1a779327e43e067c4e
+
+PODFILE CHECKSUM: 6a57c02c7fd0b170eebca0568e6dde04199a5f2e
+
+COCOAPODS: 1.11.3

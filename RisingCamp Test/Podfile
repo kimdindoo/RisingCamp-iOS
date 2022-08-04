@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RisingCamp Test' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire', '~> 5.6.1'
+  pod 'ImageSlideshow', '~> 1.9.0'
+  pod 'Tabman', '~> 2.12'
+  pod "BottomHalfModal"
+
+
+  # Pods for RisingCamp Test
+
+end
