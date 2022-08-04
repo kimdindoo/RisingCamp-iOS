@@ -1,4 +1,4 @@
-# 노션 개발일지 https://www.notion.so/d3adb14cf0084c40bc96456677cbd570?v=64b76f4441f94690bf95435a64e88c25
+# 노션 개발일지 https://www.notion.so/930eafeafb9f49168abbc56b44130f49?v=b3ffc7f7ce0045ed95122c0f780f67a9
 
 
 ## 라이징 테스트-번개장터
