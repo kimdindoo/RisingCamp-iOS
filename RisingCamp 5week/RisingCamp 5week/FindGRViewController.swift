@@ -13,7 +13,6 @@ class FindGRViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
    private let url = "https://busan-7beach.openapi.redtable.global/api/menu-dscrn/korean?serviceKey=xzqcWBUrj1hkj2qcRhf1KMbb3zEFip86I0yJ8O1b9je5i9W8p9rlNoNr5ACt7l5M"
-    
 
     
     // 현재페이지 체크 변수 (자동 스크롤할 때 필요)
