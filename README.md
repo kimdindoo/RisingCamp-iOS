@@ -1,5 +1,6 @@
 # 노션 개발일지 https://www.notion.so/930eafeafb9f49168abbc56b44130f49?v=b3ffc7f7ce0045ed95122c0f780f67a9
-
+# 번개장터 영상 https://drive.google.com/file/d/1Kx2xrELqLK6KQmhsBrAMX0DEJhGF0Mug/view
+# api https://docs.google.com/spreadsheets/d/16CDwqMrnW06r5HvUMu9j3ZL9nc_s9DNL4R7t9eKvK-o/edit#gid=0
 
 ## 라이징 테스트-번개장터
 
